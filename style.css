@@ -9,3 +9,5 @@
 .chart:empty::before{content:'Laadin graafikut…';display:block;padding:90px 20px;text-align:center;color:#56677b;font-size:14px}.model-link{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:24px;background:#e4f1f2;margin-top:25px;border-radius:8px}.model-link p{margin:0}.model-link a{white-space:nowrap;font-weight:700}@media(max-width:600px){.model-link{display:block}.model-link a{display:inline-block;margin-top:12px}}
 
 .year-picker{display:block;font-size:18px;margin:28px 0}.year-picker output{font-weight:700;margin-left:12px}.year-picker input{display:block;width:100%;margin:20px 0}.chart-tools button{min-height:40px}
+
+.education-cohorts .small,.education-cohorts .source{font-size:14px}.education-cohorts .notice{font-size:16px}.education-cohorts table,.education-cohorts th{font-size:14px}.education-cohorts caption{text-align:left;padding:12px 0;color:var(--muted);white-space:normal}.education-cohorts .chart-tools button{font-size:14px;min-height:44px}.education-cohorts td:nth-child(2){white-space:normal}.education-means th:first-child{position:sticky;left:0;z-index:1}.education-means thead th:first-child{z-index:2}

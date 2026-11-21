@@ -144,6 +144,20 @@
     "duplicates": 0
   },
   {
+    "id": "RL214111",
+    "title": "RL214111: NAISED SÜNNITATUD LASTE ARVU, VANUSE JA HARIDUSE JÄRGI, 31. DETSEMBER 2021",
+    "url": "https://andmed.stat.ee/et/stat/rahvaloendus__rel2021__rahvastiku-demograafilised-ja-etno-kultuurilised-naitajad__naised-ja-lapsed/RL214111",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RL214111",
+    "selection": {},
+    "cells": 5040,
+    "sha256": "932f911eb9549b9c4eb2430e6707087ca762c1b1b52746a981efbd48e31f1d2c",
+    "retrievedAt": "2026-11-21T10:13:38.619Z",
+    "notes": "Märkused 2021. aasta registripõhise loenduse metoodika kirjeldus Mõisted ja definitsioonid ",
+    "updated": "17.07.2023",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
     "id": "RLV415",
     "title": "RLV415: VÄHEMALT 15-AASTASED NAISED JA NENDE SÜNNITATUD LAPSED NAISE HARIDUSTASEME, SEADUSLIKU PEREKONNASEISU, VANUSERÜHMA, RAHVUSE JA ELUKOHA (MAAKOND) JÄRGI (2000, 2011, 2021)",
     "url": "https://andmed.stat.ee/et/stat/rahvaloendus__rel_vordlus__haridus/RLV415",
