@@ -1,0 +1,553 @@
+[
+  {
+    "id": "HT12",
+    "title": "HT12: ÜLDHARIDUSE STATSIONAARSE ÕPPE ÜLDANDMED (1990-2024)",
+    "url": "https://andmed.stat.ee/et/stat/Lepetatud_tabelid__Sotsiaalelu. Arhiiv__Haridus. Arhiiv/HT12",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/HT12",
+    "selection": {},
+    "cells": 744,
+    "sha256": "cb82df1bbd4e3b92d61d282e61903a3f52f97d3bb94398a3a8a9982aa78f9b86",
+    "retrievedAt": "2026-11-21T05:41:47.687Z",
+    "notes": "Märkused Vaatlusperioodi aastaarv tähistab õppeaasta algusaastat (nt 2024 = õppeaasta 2024/25). Üldhariduskool on põhikool või gümnaasium (v.a täiskasvanute gümnaasium). Erivajadustega laste koolid sisaldavad nii kasvatuslike kui hariduslike erivajadustega laste koole. 1. septembril 2010 jõustunud põhikooli- ja gümnaasiumiseadusega muudeti algkoolid põhikooliks, kus õpe toimub I või I ja II kooliastmel. Alates 2012. aastast on varasemate algkoolide arv liidetud põhikoolide arvule. Koolide andmed edaspidi leitavad tabelis HT122: ÜLDHARIDUSKOOLID ÕPPEASUTUSE TÜÜBI JA MAAKONNA JÄRGI ja õppijate arvud tabelis HT121: ÕPPIJAD ÜLDHARIDUSE STATSIONAARSES ÕPPES ÕPPETASEME JA ÕPPEASUTUSE TÜÜBI JÄRGI . ",
+    "updated": "31.03.2026",
+    "missing": 149,
+    "duplicates": 0
+  },
+  {
+    "id": "HT121",
+    "title": "HT121: ÕPPIJAD ÜLDHARIDUSE STATSIONAARSES ÕPPES ÕPPETASEME JA ÕPPEASUTUSE TÜÜBI JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/sotsiaalelu__haridus__uldharidus/HT121",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/HT121",
+    "selection": {},
+    "cells": 279,
+    "sha256": "75b4c3a318fec02431df774ce0d0c53659af78b27b3f3a2d81c8ee753fef81cb",
+    "retrievedAt": "2026-11-21T05:41:47.686Z",
+    "notes": "Märkused Vaatlusperioodi aastaarv tähistab õppeaasta algusaastat (nt 2024 = õppeaasta 2024/25). Erivajadustega laste koolid sisaldavad nii kasvatuslike kui hariduslike erivajadustega laste koole. ",
+    "updated": "31.03.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "HT122",
+    "title": "HT122: ÜLDHARIDUSKOOLID ÕPPEASUTUSE TÜÜBI JA MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/sotsiaalelu__haridus__uldharidus/HT122",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/HT122",
+    "selection": {},
+    "cells": 4536,
+    "sha256": "25f06f0591742dbaf824fbda0d23cdbcb7b8a8c39025c15944304939972cf89c",
+    "retrievedAt": "2026-11-21T05:41:47.688Z",
+    "notes": "Märkused .. Andmeid ei ole saadud või need on avaldamiseks ebakindlad Vaatlusperioodi aastaarv tähistab õppeaasta algusaastat (nt 2024 = õppeaasta 2024/25). Üldhariduskool on põhikool või gümnaasium (v.a täiskasvanute gümnaasium). Erivajadustega laste koolid sisaldavad nii kasvatuslike kui hariduslike erivajadustega laste koole. 1. septembril 2010 jõustunud põhikooli- ja gümnaasiumiseadusega muudeti algkoolid põhikooliks, kus õpe toimub I või I ja II kooliastmel. Alates 2012. aastast on varasemate algkoolide arv liidetud põhikoolide arvule. Tabelis on esitatud andmed vaatlusaasta 1. jaanuaril kehtinud haldusjaotuse järgi. Üldhariduskoolide aegrea andmeid kuni 1940. aastani on leitavad tabelist HT14: ÜLDHARIDUSKOOLID ÕPPEASUTUSE TÜÜBI JÄRGI . ",
+    "updated": "31.03.2026",
+    "missing": 1446,
+    "duplicates": 0
+  },
+  {
+    "id": "HT140U",
+    "title": "HT140U: ÕPPIJAD, VÄLJALANGEJAD JA KLASSIKORDAJAD ÜLDHARIDUSES SOO, ÕPPETASEME, ÕPPEVORMI, ÕPPEKEELE, EMAKEELE JA ELUKOHA MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/sotsiaalelu__haridus__uldharidus/HT140U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/HT140U",
+    "selection": {
+      "Näitaja": [
+        "ENRL"
+      ],
+      "Sugu": [
+        "T"
+      ],
+      "Emakeel": [
+        "TOTAL"
+      ],
+      "Õppekeel": [
+        "TOTAL"
+      ]
+    },
+    "cells": 3780,
+    "sha256": "f70ccfa4ddcbd08fdc8ce029e33e06bde9d60f4e737c5d481e33124dc3f3a0a4",
+    "retrievedAt": "2026-11-21T05:41:47.700Z",
+    "notes": "Märkused .. Andmeid ei ole saadud või need on avaldamiseks ebakindlad Vaatlusperioodi aastaarv tähistab õppeaasta algusaastat (nt 2024 = 2024/25 õa). Üldharidusest väljalangejaks loetakse õpilast, kes eelmisel õppeaastal oli mõne Eestis üldharidust pakkuva kooli õpilaste nimekirjas, kuid vaatlusalusel õppeaastal enam mitte. Arvesse ei võeta põhikooli ja gümnaasiumi lõpetajaid, välismaale lahkunuid ning surmajuhtumeid. Koolikohustuslikus eas lapsed loetakse katkestajaks, kui nad on märgitud koolist lahkunuks, et minna üle teise kooli, kuid ei ole 10. novembriks veel ühegi teise Eestis asuva kooli nimekirjas. Tabelis on esitatud andmed vaatlusaasta 1. jaanuaril kehtinud haldusjaotuse järgi. Õppekeeleks arvestatakse eesti keel ka juhul, kui õpe toimub keelekümblusprogrammis, kus vähemalt 60% õppetööst on eestikeelne. Haldusreformi eelsetest piiridest lähtuvad andmed leiab arhiivi tabelist HT140: ÜLDHARIDUSE ÕPILASED, KATKESTAJAD JA KLASSIKORDAJAD SOO, ELUKOHA, EMAKEELE, KOOLIASTME JA ÕPPEKEELE JÄRGI (2014-2016) . ",
+    "updated": "22.05.2026",
+    "missing": 900,
+    "duplicates": 0
+  },
+  {
+    "id": "HT17",
+    "title": "HT17: LÕPETAJAD ÜLDHARIDUSE STATSIONAARSES ÕPPES SOO, ÕPPEKEELE, MAAKONNA JA ÕPPETASEME JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/sotsiaalelu__haridus__uldharidus/HT17",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/HT17",
+    "selection": {
+      "Sugu": [
+        "T"
+      ],
+      "Õppekeel": [
+        "TOTAL"
+      ]
+    },
+    "cells": 1116,
+    "sha256": "0131a0dc9ac3c2f4df262295a12d6d47f999d6e5ea7be8b231c6a7e77adbcfb2",
+    "retrievedAt": "2026-11-21T05:41:47.699Z",
+    "notes": "Märkused Vaatlusperioodi aastaarv tähistab õppeaasta algusaastat (nt 2024 = õppeaasta 2024/25). Maakond tähistab õppeasutuse maakonda. Õppekeeleks arvestatakse eesti keel ka juhul, kui õpe toimus keelekümblusprogrammis, kus vähemalt 60% õppetööst on eestikeelne. ",
+    "updated": "31.03.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "HT18",
+    "title": "HT18: ÕPILASED ÜLDHARIDUSE STATSIONAARSES ÕPPES MAAKONNA, KLASSI JA ÕPPEKEELE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/sotsiaalelu__haridus__uldharidus/HT18",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/HT18",
+    "selection": {
+      "Õppekeel": [
+        "1"
+      ]
+    },
+    "cells": 8432,
+    "sha256": "64e7e26466e25faa5eaa8edf825ddac7a1b5b47e986c8549f03bc5cd9b7eccd6",
+    "retrievedAt": "2026-11-21T05:41:47.700Z",
+    "notes": "Märkused Vaatlusperioodi aastaarv tähistab õppeaasta algusaastat (nt 2024 = õppeaasta 2024/25). Maakond tähistab õppeasutuse maakonda. Tabelis on esitatud andmed vaatlusaasta 1. jaanuaril kehtinud haldusjaotuse järgi. Õppekeeleks arvestatakse eesti keel ka juhul, kui õpe toimub keelekümblusprogrammis, kus vähemalt 60% õppetööst on eestikeelne. Alates 2011/12 õppeaastast hakkasid gümnaasiumisse astujad saama 60% ulatuses õpet eesti keeles, mille tagajärjel klassifitseeriti statistikas paljud seni vene keeles õppinud õpilased eesti õppekeelega õppijate hulka. Klass Pikendatud õpe Pikendatud õppe alla kuuluvad lihtsustatud või toimetulekuõppekava järgi õppivad õpilased, kellele on antud lisaaeg põhihariduse omandamiseks, ja meelepuudega õpilased, kelle põhikooli nominaalne õppeaeg on pikem. ",
+    "updated": "31.03.2026",
+    "missing": 986,
+    "duplicates": 0
+  },
+  {
+    "id": "RL0411",
+    "title": "RL0411: NAISED SÜNNITATUD LASTE ARVU, VANUSE JA RAHVUSE JÄRGI, 31. DETSEMBER 2011",
+    "url": "https://andmed.stat.ee/et/stat/rahvaloendus__rel2011__rahvastiku-demograafilised-ja-etno-kultuurilised-naitajad__naised-ja-lapsed/RL0411",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RL0411",
+    "selection": {
+      "Naise rahvus": [
+        "TOTAL"
+      ]
+    },
+    "cells": 1008,
+    "sha256": "32a0bb3f37520f87ee7baaf24d4692cf528f6652a379bf0ffe87c7ab52231270",
+    "retrievedAt": "2026-11-21T05:41:47.706Z",
+    "notes": "Märkused Naised – vähemalt 15-aastased. Tabel on korrigeeritud 03.05.2013. ",
+    "updated": "03.05.2013",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RL21411",
+    "title": "RL21411: NAISED SÜNNITATUD LASTE ARVU, VANUSE JA RAHVUSE JÄRGI, 31. DETSEMBER 2021",
+    "url": "https://andmed.stat.ee/et/stat/rahvaloendus__rel2021__rahvastiku-demograafilised-ja-etno-kultuurilised-naitajad__naised-ja-lapsed/RL21411",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RL21411",
+    "selection": {
+      "Naise rahvus": [
+        "1"
+      ]
+    },
+    "cells": 936,
+    "sha256": "d15d12155e0ca3affa01bf76036c19d77a21324954b8115871440ab581241445",
+    "retrievedAt": "2026-11-21T05:41:47.705Z",
+    "notes": "Märkused 2021. aasta registripõhise loenduse metoodika kirjeldus Mõisted ja definitsioonid Teadmata laste arvuga naiste arvu on korrigeeritud 07.05.2024. ",
+    "updated": "07.05.2024",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RLV415",
+    "title": "RLV415: VÄHEMALT 15-AASTASED NAISED JA NENDE SÜNNITATUD LAPSED NAISE HARIDUSTASEME, SEADUSLIKU PEREKONNASEISU, VANUSERÜHMA, RAHVUSE JA ELUKOHA (MAAKOND) JÄRGI (2000, 2011, 2021)",
+    "url": "https://andmed.stat.ee/et/stat/rahvaloendus__rel_vordlus__haridus/RLV415",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RLV415",
+    "selection": {
+      "Naise rahvus": [
+        "1"
+      ],
+      "Naise seaduslik perekonnaseis": [
+        "1"
+      ],
+      "Naise haridustase": [
+        "1"
+      ]
+    },
+    "cells": 2484,
+    "sha256": "0f93f626e9b41053915d2fcc26594dd3106e70dcd690ed93722c9bcfc0906a37",
+    "retrievedAt": "2026-11-21T05:41:47.706Z",
+    "notes": "Märkused 2021. aasta registripõhise loenduse metoodika kirjeldus Mõisted ja definitsioonid. Kõik aastad on ümberarvutatud võttes arvesse alates 2017 aastast kehtivaid haldusjaotuste piire. ",
+    "updated": "03.08.2022",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV0211",
+    "title": "RV0211: AASTAKESKMINE RAHVASTIK SOO JA VANUSERÜHMA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV0211",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV0211",
+    "selection": {},
+    "cells": 3528,
+    "sha256": "2ed947ceb571168c52f56cf3e56511e88456d6886d5d2a46b03b32ebb50cd50e",
+    "retrievedAt": "2026-11-21T05:41:48.242Z",
+    "notes": "Märkused Alates 1. jaanuarist 2016 on Statistikaametis kasutusel uus rahvaarvu arvutamise metoodika ja inimeste elukoha allikas, mida tuleb muutuste analüüsimisel arvestada (vt ka Residentsuse indeksi rakendamine rahvastikustatistikas ). ",
+    "updated": "21.04.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV02111",
+    "title": "RV02111: RAHVASTIK SOO JA VANUSE JÄRGI, 1. JAANUAR (1950–1999)",
+    "url": "https://andmed.stat.ee/et/stat/RV02111",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV02111",
+    "selection": {
+      "Sugu": [
+        "F"
+      ]
+    },
+    "cells": 4400,
+    "sha256": "783e10ae0186dcd31508fb86af09f6d80c349cd783aa1ad6ceebd487a316c0c6",
+    "retrievedAt": "2026-11-21T05:41:48.549Z",
+    "notes": "Märkused Järgnevate perioodide andmed on tabelis ''Rahvastik aasta alguses ja aasta keskmine rahvaarv soo ja vanuse järgi''. ",
+    "updated": "30.12.2011",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV0212",
+    "title": "RV0212: RAHVASTIK AASTA ALGUSES JA AASTAKESKMINE RAHVAARV SOO JA VANUSE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV0212",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV0212",
+    "selection": {},
+    "cells": 17172,
+    "sha256": "b71c5a9e5e297435560adce96f569f7dc2f46367d0ebd8d8e686c1a791edbdbe",
+    "retrievedAt": "2026-11-21T05:41:48.243Z",
+    "notes": "Märkused Alates 1. jaanuarist 2016 on Statistikaametis kasutusel uus rahvaarvu arvutamise metoodika ja inimeste elukoha allikas, mida tuleb muutuste analüüsimisel arvestada (vt ka Residentsuse indeksi rakendamine rahvastikustatistikas ). Vanusegrupid 0-17, 18-64 ning 65 ja vanemad on tabelisse lisatud 09.09.2025. ",
+    "updated": "21.04.2026",
+    "missing": 1470,
+    "duplicates": 0
+  },
+  {
+    "id": "RV0213U",
+    "title": "RV0213U: RAHVAARVU MUUTUSE KOMPONENDID MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV0213U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV0213U",
+    "selection": {},
+    "cells": 4590,
+    "sha256": "3d6268b94e82e180ab78fb5fc5b33f81bf60f55c2f4d07f0bc98eb0b3c314698",
+    "retrievedAt": "2026-11-21T05:41:49.164Z",
+    "notes": "Märkused Loomulik iive - ühe aasta elussündide ja surmajuhtumite arvu vahe. Positiivne loomulik iive näitab sündide, negatiivne surmade ülekaalu. Rändesaldo - sisse- ja väljarändesündmuste arvu vahe. Elukohana on määratletud piirkond või asula, kus inimene alaliselt või peamiselt elab. Kuni aastani 2015 oli kasutusel isiku ütlus- või registripõhine elukoht (sõltus uuringu metoodikast), alates 2015. aastast kasutati rahvastikuregistri järgset elukohta. Alates 2022. aastast kasutatakse rahvastikuregistris registreeritud elukohtade asemel partnerlus- ja paiknemisindeksi metoodika alusel määratud elukohti. Selle metoodika aluseks on isikute seosed kohtadega eri registrites (vt ka Partnerlus- ja paiknemisindeksi rakendamine rahvastikustatistikas ). Metoodika muudatus mõjutab andmete võrreldavust varasemate aastatega, mistõttu tuleb seda perioodide võrdlemisel arvesse võtta. Tabelis on esitatud andmed vaatlusaasta 1. jaanuaril kehtinud haldusjaotuse järgi. Haldusreformi eelsetest piiridest lähtuvad andmed leiab arhiivi tabelist RV0213: Rahvaarvu muutuse komponendid maakonna järgi (2000-2016) . ",
+    "updated": "13.05.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV022",
+    "title": "RV022: RAHVASTIK SOO, VANUSERÜHMA JA MAAKONNA JÄRGI, 1. JAANUAR (1990–2017)",
+    "url": "https://andmed.stat.ee/et/stat/RV022",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV022",
+    "selection": {},
+    "cells": 36708,
+    "sha256": "9ff5d77e03fbe67e109ee919175d09c47e1ba38db868797bff0d6c0cda563c24",
+    "retrievedAt": "2026-11-21T05:41:49.476Z",
+    "notes": "Märkused * Muudatusi haldusjaotuses vaata mõisted ja metoodika rubriigist ''Klassifikaatorid''. Alates 1. jaanuarist 2016 on Statistikaametis kasutusel uus rahvaarvu arvutamise metoodika ja inimeste elukoha allikas, mida tuleb muutuste analüüsimisel arvestada. Elukohaks on isikute rahvastikuregistrijärgne elukoht, selle puudumisel kajastuvad isikud jaotises ''Maakond teadmata''. Täpsem info mõistete ja metoodika all. 2000.-2011. aasta Tartu linna andmed on lisatud 27.03.2025. ",
+    "updated": "27.03.2025",
+    "missing": 7410,
+    "duplicates": 0
+  },
+  {
+    "id": "RV022U",
+    "title": "RV022U: RAHVASTIK SOO, VANUSERÜHMA, RAHVUSE JA MAAKONNA JÄRGI, 1. JAANUAR",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV022U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV022U",
+    "selection": {
+      "Rahvus": [
+        "1"
+      ]
+    },
+    "cells": 16767,
+    "sha256": "067f8417efd16335bb4a324736d818967d94e4fe27eaee8a9ec2cf6767311e51",
+    "retrievedAt": "2026-11-21T05:41:49.470Z",
+    "notes": "Märkused Tabeli struktuuri on muudetud (lisatud rahvuste ja Tallinna linnaosade andmed) 12.09.2025. 2023.-2025. aasta rahvuse andmed on korrigeeritud 13.05.2026. ",
+    "updated": "13.05.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV030",
+    "title": "RV030: SÜNNID, SURMAD JA LOOMULIK IIVE",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__demograafilised-pehinaitajad/RV030",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV030",
+    "selection": {},
+    "cells": 642,
+    "sha256": "4affafe753905684e5706d52500220ae5638b294ca524ef8a801a472bb7768ed",
+    "retrievedAt": "2026-11-21T05:41:49.513Z",
+    "notes": "Märkused Näitaja Loomuliku iibe kordaja* * Loomuliku iibe kordaja on arvutatud sündimuse ja suremuse üldkordaja vahena. ",
+    "updated": "21.04.2026",
+    "missing": 30,
+    "duplicates": 0
+  },
+  {
+    "id": "RV032",
+    "title": "RV032: SÜNNID, SURMAD JA LOOMULIK IIVE SOO JA MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__demograafilised-pehinaitajad/RV032",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV032",
+    "selection": {
+      "Sugu": [
+        "1"
+      ]
+    },
+    "cells": 3402,
+    "sha256": "fb742d55b8236c5bb96693d4a3e7feff959d21e689e6ff19055c54c15be4241e",
+    "retrievedAt": "2026-11-21T05:41:49.665Z",
+    "notes": "Märkused 2017. aasta andmed on esitatud reformijärgse haldusjaotuse põhjal. 2017. aasta andmete võrdlemisel varasematega tuleb arvestada haldusjaotuse muutusega. Elukohana on määratletud piirkond või asula, kus inimene alaliselt või peamiselt elab. Kuni aastani 2015 oli kasutusel isiku ütlus- või registripõhine elukoht (sõltus uuringu metoodikast), alates 2015. aastast kasutati rahvastikuregistri järgset elukohta. Alates 2022. aastast kasutatakse rahvastikuregistris registreeritud elukohtade asemel partnerlus- ja paiknemisindeksi metoodika alusel määratud elukohti. Selle metoodika aluseks on isikute seosed kohtadega eri registrites (vt ka Partnerlus- ja paiknemisindeksi rakendamine rahvastikustatistikas ). Metoodika muudatus mõjutab andmete võrreldavust varasemate aastatega, mistõttu tuleb seda perioodide võrdlemisel arvesse võtta. 2022., 2023. ja 2025. aasta andmed on korrigeeritud 14.07.2026. ",
+    "updated": "14.07.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV033",
+    "title": "RV033: SÜNDIMUSE NÄITAJAD",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__demograafilised-pehinaitajad/RV033",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV033",
+    "selection": {},
+    "cells": 336,
+    "sha256": "857d10490f65da4920b57bbb092fd3bb56b7281787d76e0cbe74bf4ff0e9cb15",
+    "retrievedAt": "2026-11-21T05:41:49.654Z",
+    "notes": "Märkused Sündimuse näitajate arvutamise metoodika ning muud rahvastikustatistikas kasutusel olevad matemaatilised valemid on välja toodud metoodika dokumendis . 2000.-2012.a suhtarvud on korrigeeritud vastavalt ümberarvutatud rahvaarvule 14.05.2014 ",
+    "updated": "26.05.2026",
+    "missing": 19,
+    "duplicates": 0
+  },
+  {
+    "id": "RV045",
+    "title": "RV045: OODATAV ELUIGA SÜNNIMOMENDIL JA ELADA JÄÄNUD AASTAD SOO JA VANUSE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__demograafilised-pehinaitajad/RV045",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV045",
+    "selection": {
+      "Vanus": [
+        "0",
+        "65"
+      ]
+    },
+    "cells": 222,
+    "sha256": "7ae48293c94d089703ed7e1e80f08016b3658d8da90f994fb999b09d1775f7b6",
+    "retrievedAt": "2026-11-21T05:41:50.105Z",
+    "notes": "Märkused Elada jäänud aastate arv - mingis vanuses keskmiselt elada jäävate aastate arv, kui suremus ei muutu. 0 aasta vanuses - oodatav eluiga sünnimomendil. Oodatava eluea arvutamise metoodika ning muud rahvastikustatistikas kasutusel olevad matemaatilised valemid on välja toodud metoodika dokumendis . Seoses rahvaarvu korrigeerimisega on 2000.-2012. aasta andmed ümber arvutatud 12.09.2014. ",
+    "updated": "26.05.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV061",
+    "title": "RV061: SÜNDIDE ESIALGSED REGISTREERIMISANDMED REGISTREERIMISKOHA JA -KUU JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV061",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV061",
+    "selection": {
+      "Näitaja": [
+        "1"
+      ]
+    },
+    "cells": 4284,
+    "sha256": "bbdca5a9a2f325b005a187f09c0e87840799299f0aaab50ca3b0513d41be4da0",
+    "retrievedAt": "2026-11-21T05:41:50.127Z",
+    "notes": "Märkused Andmed sisaldavad kuu jooksul Eesti perekonnaseisuasutustes ja e-rahvastikuregistris registreeritud sünde. Sünniakt koostatakse ühe kuu jooksul lapse sündimise päevast. Sündide arv kokku ei võrdu alati sündide arvuga maakonniti, sest osadel vastsündinutel (st nende emadel) ei pruugi olla Rahvastikuregistris registreeritud Eesti elukohta. ",
+    "updated": "20.11.2026",
+    "missing": 34,
+    "duplicates": 0
+  },
+  {
+    "id": "RV083",
+    "title": "RV083: PROGNOOSITAV RAHVAARV AASTANI 2085 SOO JA VANUSE JÄRGI (ALUSEKS 1. JAANUARI 2024 RAHVAARV)",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV083",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV083",
+    "selection": {},
+    "cells": 132804,
+    "sha256": "1ccd6735253f4081d6d1f054a71348d767ca51b2f983a35554fbdd46499200ea",
+    "retrievedAt": "2026-11-21T05:41:50.380Z",
+    "notes": "Märkused Stsenaariumite sisendiks olevad näitajad (selles järjekorras: summaarne sündimuskordaja 2050/2085; oodatav eluiga meestel (M) ja naistel (N) 2050/2085; ligikaudne rändesaldo): Stsenaarium 1 (põhistsenaarium) – 1,63/1,7; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 2 (kõrgem sündimus) – 1,65/1,87; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 3 (madalam sündimus) – 1,48/1,53; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 4 (oodatav eluiga jääb samaks) – 1,63/1,7; M 75, N 83 / M 75, N 83; 4000 Stsenaarium 5 (ilma rändeta) – 1,63/1,7; M 78, N 86 / M 85, N 91; 0 Stsenaarium 6 (kõrgem ränne) – 1,63/1,7; M 78, N 86 / M 85, N 91; 6000 Stsenaarium 7 (madalam sündimus, kõrgem ränne) – 1,48/1,53; M 78, N 86 / M 85, N 91; 6000 Täpsemalt saab rahvastikuprognoosi koostamise metoodika kohta lugeda 2024. aasta rahvastikuprognoosi metoodikadokumendist . ",
+    "updated": "13.06.2024",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV084",
+    "title": "RV084: PROGNOOSITAV RAHVAARV AASTANI 2050 MAAKONNA JA VANUSERÜHMA JÄRGI (ALUSEKS 1. JAANUARI 2024 RAHVAARV)",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV084",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV084",
+    "selection": {},
+    "cells": 23085,
+    "sha256": "0dbd2d25c9cd407a5e7efb692848c8c0ea4cb27f16ff96f9b7551d6be95dff13",
+    "retrievedAt": "2026-11-21T05:41:50.914Z",
+    "notes": "Märkused Maakondade prognoos on koostatud tabelis RV083: Prognoositav rahvaarv aastani 2085 soo ja vanuse järgi (aluseks 1. jaanuari 2024 rahvaarv) . näidatud Stsenaarium 1 (põhistsenaarium) põhjal kuni aastani 2050.Sündimus on kõikides maakondades aastaks 2050 hinnatud 1,63 peale, oodatav eluiga on meestel umbes 78 ja naistel 86. Täpsemalt saab rahvastikuprognoosi koostamise metoodika kohta lugeda 2024. aasta rahvastikuprognoosi metoodikadokumendist . ",
+    "updated": "13.06.2024",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV085",
+    "title": "RV085: RAHVASTIKUPROGNOOS 2025-2085: RAHVASTIKUNÄITAJAD SOO JA MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV085",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV085",
+    "selection": {
+      "Sugu": [
+        "1"
+      ]
+    },
+    "cells": 76384,
+    "sha256": "3f609a53fe56498a4fe4dc2b778993bb9c20a882716979e858d37862fe67f827",
+    "retrievedAt": "2026-11-21T05:41:50.884Z",
+    "notes": "Märkused Summaarne sündimuskordaja näitab keskmist naise kogu elu jooksul sünnitatavate laste arvu eeldusel, et sündimuskäitumine püsib kogu naise viljaka ea (15-49 a) jooksul vaatlusaasta tasemel. Loomulik iive on sündide ja surmade vahe. Rändesaldo on sisserände ja väljarände vahe. Rahvastikustatistikas kasutusel olevad matemaatilised valemid on välja toodud metoodikadokumendis. Rahvaarv on arvutatud iga aasta 1. jaanuari seisuga. Näitajad viitavad teatud aasta jooksul toimunud sündmustele (näiteks 2050 aasta jooksul toimunud sünnid ja surmad). Stsenaariumite sisendiks olevad näitajad (selles järjekorras: summaarne sündimuskordaja 2050/2085; oodatav eluiga meestel (M) ja naistel (N) 2050/2085; ligikaudne rändesaldo): Stsenaarium 1 (põhistsenaarium) - 1,63/1,7; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 2 (kõrgem sündimus) - 1,65/1,87; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 3 (madalam sündimus) - 1,48/1,53; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 4 (oodatav eluiga jääb samaks) - 1,63/1,7; M 75, N 83 / M 75, N 83; 4000 Stsenaarium 5 (ilma rändeta) - 1,63/1,7; M 78, N 86 / M 85, N 91; 0 Stsenaarium 6 (kõrgem ränne) - 1,63/1,7; M 78, N 86 / M 85, N 91; 6000 Stsenaarium 7 (madalam sündimus, kõrgem ränne) - 1,48/1,53; M 78, N 86 / M 85, N 91; 6000 Täpsemalt saab rahvastikuprognoosi koostamise metoodika kohta lugeda 2024. aasta rahvastikuprognoosi metoodikadokumendist . ",
+    "updated": "13.06.2024",
+    "missing": 67699,
+    "duplicates": 0
+  },
+  {
+    "id": "RV095",
+    "title": "RV095: NAISED SÜNNITATUD LASTE ARVU, RAHVUSE, VANUSERÜHMA JA ELUKOHA JÄRGI, 1. JAANUAR",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__demograafilised-pehinaitajad/RV095",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV095",
+    "selection": {
+      "Naise rahvus": [
+        "1"
+      ]
+    },
+    "cells": 5670,
+    "sha256": "116a053150f77fa31c2a985927991aca053ac19a7e915b8ed1386aeee1b2bfc1",
+    "retrievedAt": "2026-11-21T05:41:50.585Z",
+    "notes": "Märkused .. Andmeid ei ole saadud või need on avaldamiseks ebakindlad. Sünnitatud laste arv on teadmata naistel, kes on Eestisse rännanud 15-aastaselt või vanemalt ja pole registrite või rahvaloenduse andmetel lapsi sünnitanud. ",
+    "updated": "26.05.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV096",
+    "title": "RV096: NAISED SÜNNITATUD LASTE ARVU, HARIDUSE, VANUSERÜHMA JA ELUKOHA JÄRGI, 1. JAANUAR",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__demograafilised-pehinaitajad/RV096",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV096",
+    "selection": {},
+    "cells": 28350,
+    "sha256": "dcb59d96370cd3e4764fcb09db6036c3a17e6c6e904d33be8fe2c5d41785a033",
+    "retrievedAt": "2026-11-21T05:41:51.189Z",
+    "notes": "Märkused .. Andmeid ei ole saadud või need on avaldamiseks ebakindlad. Sünnitatud laste arv on teadmata naistel, kes on Eestisse rännanud 15-aastaselt või vanemalt ja pole registrite või rahvaloenduse andmetel lapsi sünnitanud. ",
+    "updated": "25.09.2026",
+    "missing": 630,
+    "duplicates": 0
+  },
+  {
+    "id": "RV114",
+    "title": "RV114: ELUSSÜNDINUD EMA VANUSERÜHMA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV114",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV114",
+    "selection": {},
+    "cells": 1010,
+    "sha256": "d14d1c62d6d7cd1657961b8386181400db809343c012f3b1019973d04db0241f",
+    "retrievedAt": "2026-11-21T05:41:51.515Z",
+    "notes": "Märkused Ema vanus näitab ema vanust lapse sünni hetkel. Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. ",
+    "updated": "21.04.2026",
+    "missing": 36,
+    "duplicates": 0
+  },
+  {
+    "id": "RV12",
+    "title": "RV12: ELUSSÜNDINUD EMA VANUSE, MAAKONNA JA ASUSTUSÜKSUSE LIIGI JÄRGI (1989–2016)",
+    "url": "https://andmed.stat.ee/et/stat/RV12",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV12",
+    "selection": {
+      "Asustusüksuse liik": [
+        "1"
+      ]
+    },
+    "cells": 4032,
+    "sha256": "9edda7c97f26ef24cb90e9b643d1a84d84791aec0173f416122be17d5c9fd52f",
+    "retrievedAt": "2026-11-21T05:41:51.654Z",
+    "notes": "Märkused Linnaliste asulate hulka on arvestatud linnad, vallasisesed linnad ja alevid, maa-asulate hulka alevikud ja külad. ",
+    "updated": "02.06.2017",
+    "missing": 208,
+    "duplicates": 0
+  },
+  {
+    "id": "RV124",
+    "title": "RV124: ELUSSÜNDINUD SÜNNIJÄRJEKORRA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV124",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV124",
+    "selection": {},
+    "cells": 1224,
+    "sha256": "e1ee9b4329f181fa8db99961e611d9cc989885d10176be85d09cb233ecaeaa98",
+    "retrievedAt": "2026-11-21T05:41:51.834Z",
+    "notes": "Märkused Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. ",
+    "updated": "21.04.2026",
+    "missing": 44,
+    "duplicates": 0
+  },
+  {
+    "id": "RV128",
+    "title": "RV128: ELUSSÜNDINUD SÜNNIJÄRJEKORRA JA EMA VANUSERÜHMA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV128",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV128",
+    "selection": {},
+    "cells": 3950,
+    "sha256": "2c02e77a4c75cc8ea46d390166009ad17b9ad6a30c2dcff2d1f6607303bef880",
+    "retrievedAt": "2026-11-21T05:41:52.104Z",
+    "notes": "Märkused Ema vanus näitab ema vanust lapse sünni hetkel. Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. ",
+    "updated": "21.04.2026",
+    "missing": 680,
+    "duplicates": 0
+  },
+  {
+    "id": "RV129",
+    "title": "RV129: ELUSSÜNDINUD EMA VANUSE JA SÜNNIJÄRJEKORRA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV129",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV129",
+    "selection": {},
+    "cells": 17760,
+    "sha256": "ba670d1a9105959f83699dd77f658bee8fa8b04466a8c575c370cf97e3a92302",
+    "retrievedAt": "2026-11-21T05:41:51.889Z",
+    "notes": "Märkused Ema vanus näitab ema vanust lapse sünni hetkel. Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. ",
+    "updated": "26.05.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV12U",
+    "title": "RV12U: ELUSSÜNDINUD EMA VANUSE, MAAKONNA JA ASUSTUSÜKSUSE LIIGI JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV12U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV12U",
+    "selection": {},
+    "cells": 3888,
+    "sha256": "97730997ee45613ba70bf812e7ba88e61e62f543a8cb3fc9bdb6d514a6c1ca39",
+    "retrievedAt": "2026-11-21T05:41:52.719Z",
+    "notes": "Märkused Ema vanus näitab ema vanust lapse sünni hetkel. Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. Kuni aastani 2021 (k.a.) kasutati tabelis elukohana lapse sünnihetkel registreeritud aadressi. Alates 2022. aastast määratakse lapse elukoht ema paiknemisindeksi järgi arvutatud elukoha alusel. Esmalt võetakse aluseks ema elukoht lapse sünniaasta lõpus. Kui see on teadmata, vaadatakse ema elukohta sünniaasta alguses. Kui ka see on teadmata, kasutatakse sama metoodika alusel arvutatud isa elukohta lapse sünniaasta alguses või lõpus (vt ka Partnerlus- ja paiknemisindeksi rakendamine rahvastikustatistikas ). Tabelis on esitatud andmed vaatlusaasta 1. jaanuaril kehtinud haldusjaotuse järgi. Varasemate kui 2018. aasta andmete puhul on lähtutud 01.01.2018 kehtinud haldusjaotusest. Haldusreformi eelsetest piiridest lähtuvad andmed leiab arhiivi tabelist RV12: Elussündinud ema vanuse, maakonna ja asustusüksuse liigi järgi (1989-2016) . Asustuspiirkonnad on alates 2026. aastast ajakohastatud vastavalt rahvastiku paiknemises toimunud muutustele. ",
+    "updated": "26.05.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV134U",
+    "title": "RV134U: ELUSSÜNDINUD SÜNNIJÄRJEKORRA, EMA VANUSE JA MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV134U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV134U",
+    "selection": {},
+    "cells": 13824,
+    "sha256": "147a110ac457e7ad149fa505fd7c597b04085637323395548e7b540281f70320",
+    "retrievedAt": "2026-11-21T05:41:52.953Z",
+    "notes": "Märkused Ema vanus näitab ema vanust lapse sünni hetkel. Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. Kuni aastani 2021 (k.a.) kasutati tabelis elukohana lapse sünnihetkel registreeritud aadressi. Alates 2022. aastast määratakse lapse elukoht ema paiknemisindeksi järgi arvutatud elukoha alusel. Esmalt võetakse aluseks ema elukoht lapse sünniaasta lõpus. Kui see on teadmata, vaadatakse ema elukohta sünniaasta alguses. Kui ka see on teadmata, kasutatakse sama metoodika alusel arvutatud isa elukohta lapse sünniaasta alguses või lõpus (vt ka Partnerlus- ja paiknemisindeksi rakendamine rahvastikustatistikas ). Tabelis on esitatud andmed vaatlusaasta 1. jaanuaril kehtinud haldusjaotuse järgi. Varasemate kui 2018. aasta andmete puhul on lähtutud 01.01.2018 kehtinud haldusjaotusest. Haldusreformi eelsetest piiridest lähtuvad andmed leiab arhiivi tabelist RV134: Elussündinud sünnijärjekorra, ema vanuse ja maakonna järgi (1989-2016) . ",
+    "updated": "26.05.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV144U",
+    "title": "RV144U: ELUSSÜNDINUD EMA VANUSE, HARIDUSTASEME JA MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV144U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV144U",
+    "selection": {},
+    "cells": 5040,
+    "sha256": "14e7b0df1c6f562377006ddd6986258a60553e3acfbb7b1fc614e2146d8ac4ae",
+    "retrievedAt": "2026-11-21T05:41:53.060Z",
+    "notes": "Märkused Ema vanus näitab ema vanust lapse sünni hetkel. Haridus näitab ema kõrgeimat omandatud haridustaset 1. jaanuari seisuga. Kõrgharidusega (III taseme haridusega) isikute hulka arvatakse ka keskhariduse baasil omandatud keskeriharidusega isikud (vastuvõtt Eestis kuni 1999. aastani). Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. Kuni aastani 2021 (k.a.) kasutati tabelis elukohana lapse sünnihetkel registreeritud aadressi. Alates 2022. aastast määratakse lapse elukoht ema paiknemisindeksi järgi arvutatud elukoha alusel. Esmalt võetakse aluseks ema elukoht lapse sünniaasta lõpus. Kui see on teadmata, vaadatakse ema elukohta sünniaasta alguses. Kui ka see on teadmata, kasutatakse sama metoodika alusel arvutatud isa elukohta lapse sünniaasta alguses või lõpus (vt ka Partnerlus- ja paiknemisindeksi rakendamine rahvastikustatistikas ). Tabelis on esitatud andmed vaatlusaasta 1. jaanuaril kehtinud haldusjaotuse järgi. Varasemate kui 2018. aasta andmete puhul on lähtutud 01.01.2018 kehtinud haldusjaotusest. Haldusreformi eelsetest piiridest lähtuvad andmed leiab arhiivi tabelist RV144: Elussündinud ema vanuse, haridustaseme ja maakonna järgi (1989-2016) . ",
+    "updated": "25.09.2026",
+    "missing": 0,
+    "duplicates": 0
+  },
+  {
+    "id": "RV172",
+    "title": "RV172: SÜNDIMUSE VANUSKORDAJAD",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV172",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV172",
+    "selection": {},
+    "cells": 448,
+    "sha256": "154216477632fb1be2881de9cb7c9a4037536cbdc5066a038b428b7a9e5e3786",
+    "retrievedAt": "2026-11-21T05:41:53.378Z",
+    "notes": "Märkused Aastate 2000-2012 andmed on korrigeeritud rahvaarvu ümberarvutuste tõttu 16.05.2014. Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. ",
+    "updated": "21.04.2026",
+    "missing": 0,
+    "duplicates": 0
+  }
+]
