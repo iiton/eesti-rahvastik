@@ -1,0 +1,105 @@
+{
+  "query": [
+    {
+      "code": "Aasta",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    },
+    {
+      "code": "Maakond",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "00",
+          "37",
+          "39",
+          "44",
+          "49",
+          "51",
+          "57",
+          "59",
+          "65",
+          "67",
+          "70",
+          "74",
+          "78",
+          "82",
+          "84",
+          "86",
+          "17"
+        ]
+      }
+    },
+    {
+      "code": "Vanuserühm",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      }
+    },
+    {
+      "code": "Sünniriik/Kodakondsus",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "Riik",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "EE",
+          "3",
+          "LT",
+          "LV",
+          "6",
+          "FI",
+          "8",
+          "9",
+          "GE",
+          "KZ",
+          "UA",
+          "BY",
+          "RU",
+          "XX",
+          "16"
+        ]
+      }
+    },
+    {
+      "code": "Sugu",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "3"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json"
+  }
+}

@@ -133,5 +133,50 @@
     "retrievedAt": "2026-11-21T12:44:12.708Z",
     "sha256": "d6f3f21d4566a320402291dc056609749f97f95ef971348ba55b82b3a05b248d",
     "cells": 740
+  },
+  {
+    "id": "RV0231U",
+    "title": "RV0231U: VÄHEMALT 15-AASTASED HARIDUSE, SOO, VANUSRÜHMA JA MAAKONNA JÄRGI, 1. JAANUAR",
+    "url": "https://andmed.stat.ee/et/stat/RV0231U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV0231U",
+    "retrievedAt": "2026-11-21T14:17:42.896Z",
+    "sha256": "5c4989119c5a2db20d103f43a45168bb7e7d6d0d8d3bd309279258ebbaf1a0a6",
+    "cells": 4050
+  },
+  {
+    "id": "RV0282U",
+    "title": "RV0282U: RAHVASTIK SOO, VANUSERÜHMA JA ELUKOHA JÄRGI, 1. JAANUAR",
+    "url": "https://andmed.stat.ee/et/stat/RV0282U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV0282U",
+    "retrievedAt": "2026-11-21T14:17:42.900Z",
+    "sha256": "c6bf8164f1a70a303e1ee92ed84fcee8234dcd2afcb3b980ee47aba5ee17be8e",
+    "cells": 14760
+  },
+  {
+    "id": "RV069U",
+    "title": "RV069U: RAHVASTIK SÜNNIRIIGI/KODAKONDSUSE, MAAKONNA, SOO JA VANUSERÜHMA JÄRGI, 1.JAANUAR",
+    "url": "https://andmed.stat.ee/et/stat/RV069U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV069U",
+    "retrievedAt": "2026-11-21T14:17:42.911Z",
+    "sha256": "0458969f02bc83f1d30ec4ac7ffb02292df5f2793cb6c227a7d83c2874febde8",
+    "cells": 24480
+  },
+  {
+    "id": "RV022U",
+    "title": "RV022U: RAHVASTIK SOO, VANUSERÜHMA, RAHVUSE JA MAAKONNA JÄRGI, 1. JAANUAR",
+    "url": "https://andmed.stat.ee/et/stat/RV022U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV022U",
+    "retrievedAt": "2026-11-21T14:17:43.287Z",
+    "sha256": "f6e89709aafa6e5ca432150e67ec8bbb814700ef243d8f2b8c7b6ce790d233ea",
+    "cells": 7290
+  },
+  {
+    "id": "RV108",
+    "title": "RV108: ELUSSÜNDINUD VANEMATE RAHVUSE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV108",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV108",
+    "retrievedAt": "2026-11-21T14:17:43.310Z",
+    "sha256": "2aca2c03365127a49ceec779ce549d24606c02682eac9f1f4f613ae2c4619a23",
+    "cells": 1665
   }
 ]
