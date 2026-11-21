@@ -1,0 +1,77 @@
+{
+  "query": [
+    {
+      "code": "Aasta",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      }
+    },
+    {
+      "code": "Asustuspiirkonna liik",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "code": "Maakond",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "37",
+          "784",
+          "39",
+          "44",
+          "49",
+          "51",
+          "57",
+          "59",
+          "65",
+          "67",
+          "70",
+          "74",
+          "78",
+          "82",
+          "84",
+          "86",
+          "18"
+        ]
+      }
+    },
+    {
+      "code": "Ema vanus",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json"
+  }
+}

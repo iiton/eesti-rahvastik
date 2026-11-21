@@ -1,0 +1,64 @@
+{
+  "query": [
+    {
+      "code": "Aasta",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      }
+    },
+    {
+      "code": "Asustuspiirkonna liik",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "code": "Ema vanus",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "code": "Ema haridustase",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json"
+  }
+}

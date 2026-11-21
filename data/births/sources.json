@@ -1,0 +1,137 @@
+[
+  {
+    "id": "RV129",
+    "title": "RV129: ELUSSÜNDINUD EMA VANUSE JA SÜNNIJÄRJEKORRA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV129",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV129",
+    "retrievedAt": "2026-11-21T12:44:12.278Z",
+    "sha256": "ba670d1a9105959f83699dd77f658bee8fa8b04466a8c575c370cf97e3a92302",
+    "cells": 17760
+  },
+  {
+    "id": "RV0212",
+    "title": "RV0212: RAHVASTIK AASTA ALGUSES JA AASTAKESKMINE RAHVAARV SOO JA VANUSE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV0212",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV0212",
+    "retrievedAt": "2026-11-21T12:44:12.289Z",
+    "sha256": "abfe976754ca1c3e3ed691b743b2a24ecdab1f60b6af30dc2d730b7659b5a30f",
+    "cells": 16536
+  },
+  {
+    "id": "RV144",
+    "title": "RV144: ELUSSÜNDINUD EMA VANUSE, HARIDUSTASEME JA MAAKONNA JÄRGI (1989–2016)",
+    "url": "https://andmed.stat.ee/et/stat/RV144",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV144",
+    "retrievedAt": "2026-11-21T12:44:12.298Z",
+    "sha256": "5642a8e4a908e1f276f904ec4ff46dfcd10e08026c68137b6aea5c3873b4fa08",
+    "cells": 17920
+  },
+  {
+    "id": "RV144U",
+    "title": "RV144U: ELUSSÜNDINUD EMA VANUSE, HARIDUSTASEME JA MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV144U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV144U",
+    "retrievedAt": "2026-11-21T12:44:12.306Z",
+    "sha256": "14e7b0df1c6f562377006ddd6986258a60553e3acfbb7b1fc614e2146d8ac4ae",
+    "cells": 5040
+  },
+  {
+    "id": "RV142",
+    "title": "RV142: ELUSSÜNDINUD EMA VANUSE, HARIDUSTASEME JA ASUSTUSÜKSUSE LIIGI JÄRGI (1989–2016)",
+    "url": "https://andmed.stat.ee/et/stat/RV142",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV142",
+    "retrievedAt": "2026-11-21T12:44:12.661Z",
+    "sha256": "babe7d0e7ff1cae0c9b3e9a3ecb23526fa54bb46861b29552de7a3ee78e314a6",
+    "cells": 4480
+  },
+  {
+    "id": "RV134",
+    "title": "RV134: ELUSSÜNDINUD SÜNNIJÄRJEKORRA, EMA VANUSE JA MAAKONNA JÄRGI (1989–2016)",
+    "url": "https://andmed.stat.ee/et/stat/RV134",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV134",
+    "retrievedAt": "2026-11-21T12:44:12.665Z",
+    "sha256": "d184850533c08e35acdf9a55a949464c313b9a3676c7ca3632a8551c48c4f41a",
+    "cells": 43008
+  },
+  {
+    "id": "RV134U",
+    "title": "RV134U: ELUSSÜNDINUD SÜNNIJÄRJEKORRA, EMA VANUSE JA MAAKONNA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV134U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV134U",
+    "retrievedAt": "2026-11-21T12:44:12.689Z",
+    "sha256": "147a110ac457e7ad149fa505fd7c597b04085637323395548e7b540281f70320",
+    "cells": 13824
+  },
+  {
+    "id": "RV12U",
+    "title": "RV12U: ELUSSÜNDINUD EMA VANUSE, MAAKONNA JA ASUSTUSÜKSUSE LIIGI JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV12U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV12U",
+    "retrievedAt": "2026-11-21T12:44:12.700Z",
+    "sha256": "97730997ee45613ba70bf812e7ba88e61e62f543a8cb3fc9bdb6d514a6c1ca39",
+    "cells": 3888
+  },
+  {
+    "id": "RV122U",
+    "title": "RV122U: ELUSSÜNDINUD EMA VANUSE, MAAKONNA JA ASUSTUSÜKSUSE LIIGI JÄRGI. EESTLASED",
+    "url": "https://andmed.stat.ee/et/stat/RV122U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV122U",
+    "retrievedAt": "2026-11-21T12:44:12.702Z",
+    "sha256": "ef151bffe5afbb117841098abdd8fb42fdaf96ded4cca8f159f4045dcdea01f6",
+    "cells": 3888
+  },
+  {
+    "id": "RV142U",
+    "title": "RV142U: ELUSSÜNDINUD EMA VANUSE, HARIDUSTASEME JA ASUSTUSPIIRKONNA LIIGI JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV142U",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV142U",
+    "retrievedAt": "2026-11-21T12:44:12.704Z",
+    "sha256": "77e44240246d6addc88b01b92332b30a43c3cfcb252b1b9626227ab99499f6f0",
+    "cells": 1260
+  },
+  {
+    "id": "RV115",
+    "title": "RV115: ELUSSÜNDINUD EMA VANUSE JA SÜNNIRIIGI JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV115",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV115",
+    "retrievedAt": "2026-11-21T12:44:12.705Z",
+    "sha256": "381cbd01696514fbdb232245404ed51ada5791ec330b37210eeef1685c70ffff",
+    "cells": 462
+  },
+  {
+    "id": "RV116",
+    "title": "RV116: ELUSSÜNDINUD EMA VANUSE JA KODAKONDSUSE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV116",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV116",
+    "retrievedAt": "2026-11-21T12:44:12.705Z",
+    "sha256": "96ad78cf71ff15ed446d127fc5a540d9b968a5e69af036217cf281f8c8d65f38",
+    "cells": 539
+  },
+  {
+    "id": "RV14",
+    "title": "RV14: ELUSSÜNDINUD EMA JA ISA VANUSE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV14",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV14",
+    "retrievedAt": "2026-11-21T12:44:12.706Z",
+    "sha256": "1754e4871b18392fe9271f484378565924ebe4a0af93494a3aaafc3d8304170f",
+    "cells": 2960
+  },
+  {
+    "id": "RV15",
+    "title": "RV15: ABIELUST ELUSSÜNDINUD EMA VANUSERÜHMA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV15",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV15",
+    "retrievedAt": "2026-11-21T12:44:12.707Z",
+    "sha256": "ae263f467ba4395b3f83c80126c38fff5e02b4eca276a365fcb2a42d4e7600ed",
+    "cells": 370
+  },
+  {
+    "id": "RV152",
+    "title": "RV152: VÄLJASPOOL ABIELU ELUSSÜNDINUD ISA TUVASTATUSE JA EMA VANUSE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/RV152",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV152",
+    "retrievedAt": "2026-11-21T12:44:12.708Z",
+    "sha256": "d6f3f21d4566a320402291dc056609749f97f95ef971348ba55b82b3a05b248d",
+    "cells": 740
+  }
+]
