@@ -1,4 +1,78 @@
 {
+  "censusCoverage": [
+    {
+      "year": 2011,
+      "age": "25–34",
+      "singleAgeTotal": 89041,
+      "singleAgeKnown": 87028,
+      "publishedTotal": 89041,
+      "publishedKnown": 88238,
+      "difference": 1210
+    },
+    {
+      "year": 2011,
+      "age": "35–44",
+      "singleAgeTotal": 89116,
+      "singleAgeKnown": 88142,
+      "publishedTotal": 89116,
+      "publishedKnown": 88474,
+      "difference": 332
+    },
+    {
+      "year": 2011,
+      "age": "45–54",
+      "singleAgeTotal": 93009,
+      "singleAgeKnown": 92018,
+      "publishedTotal": 93009,
+      "publishedKnown": 92255,
+      "difference": 237
+    },
+    {
+      "year": 2011,
+      "age": "55–64",
+      "singleAgeTotal": 93594,
+      "singleAgeKnown": 93234,
+      "publishedTotal": 93594,
+      "publishedKnown": 93459,
+      "difference": 225
+    },
+    {
+      "year": 2021,
+      "age": "25–34",
+      "singleAgeTotal": 82000,
+      "singleAgeKnown": 77305,
+      "publishedTotal": 82000,
+      "publishedKnown": 77305,
+      "difference": 0
+    },
+    {
+      "year": 2021,
+      "age": "35–44",
+      "singleAgeTotal": 91237,
+      "singleAgeKnown": 89659,
+      "publishedTotal": 91237,
+      "publishedKnown": 89659,
+      "difference": 0
+    },
+    {
+      "year": 2021,
+      "age": "45–54",
+      "singleAgeTotal": 88917,
+      "singleAgeKnown": 87779,
+      "publishedTotal": 88917,
+      "publishedKnown": 88702,
+      "difference": 923
+    },
+    {
+      "year": 2021,
+      "age": "55–64",
+      "singleAgeTotal": 90931,
+      "singleAgeKnown": 90276,
+      "publishedTotal": 90931,
+      "publishedKnown": 90884,
+      "difference": 608
+    }
+  ],
   "balance": [
     {
       "year": 2017,
@@ -1609,7 +1683,7 @@
       ]
     }
   ],
-  "generated": "2026-11-21T06:01:26.933Z",
+  "generated": "2026-11-21T06:04:40.482Z",
   "sources": [
     {
       "id": "HT12",
