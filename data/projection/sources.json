@@ -1,0 +1,89 @@
+[
+  {
+    "id": "RV046",
+    "title": "RV046: SUREMUSTÕENÄOSUS JA ELLUJÄÄJAD SÜNNIPÕLVKONNA HULGAST SOO JA VANUSE JÄRGI",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV046",
+    "url": "https://andmed.stat.ee/et/stat/RV046",
+    "retrievedAt": "2026-11-21T09:02:45.602Z",
+    "cells": 1818,
+    "sha256": "396f641bb641cc5f2041e5b635f148e9e7eda09a3a71d5cd069232291e5ce5f0"
+  },
+  {
+    "id": "RV108",
+    "title": "RV108: ELUSSÜNDINUD VANEMATE RAHVUSE JÄRGI",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV108",
+    "url": "https://andmed.stat.ee/et/stat/RV108",
+    "retrievedAt": "2026-11-21T09:02:45.611Z",
+    "cells": 135,
+    "sha256": "1696d7e3d456b7ca0cfc389ea70eae5de19f43a6ba3cc357765dcae6e49406f1"
+  },
+  {
+    "id": "RV122U",
+    "title": "RV122U: ELUSSÜNDINUD EMA VANUSE, MAAKONNA JA ASUSTUSÜKSUSE LIIGI JÄRGI. EESTLASED",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV122U",
+    "url": "https://andmed.stat.ee/et/stat/RV122U",
+    "retrievedAt": "2026-11-21T09:02:45.624Z",
+    "cells": 24,
+    "sha256": "a4608e37cf200336ad89e2828f6e7232c8451bb40173d6dbcc43a3fb659e5a71"
+  },
+  {
+    "id": "RV022U",
+    "title": "RV022U: RAHVASTIK SOO, VANUSERÜHMA, RAHVUSE JA MAAKONNA JÄRGI, 1. JAANUAR",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV022U",
+    "url": "https://andmed.stat.ee/et/stat/RV022U",
+    "retrievedAt": "2026-11-21T09:02:45.713Z",
+    "cells": 1656,
+    "sha256": "9821901ad0d59464ce3e4c3c729d8484763a8f6a556616625bd3cabb7e1c2e2f"
+  },
+  {
+    "id": "RV106",
+    "title": "RV106: ELUSSÜNDINUD SOO JÄRGI",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV106",
+    "url": "https://andmed.stat.ee/et/stat/RV106",
+    "retrievedAt": "2026-11-21T09:02:45.720Z",
+    "cells": 18,
+    "sha256": "2a707676ffe88c1e4fdfa93045d56ebcbf15e31d05773c04ae0aac89f15c79eb"
+  },
+  {
+    "id": "RV0453",
+    "title": "RV0453: OODATAV ELUIGA SÜNNIMOMENDIL JA ELADA JÄÄNUD AASTAD RAHVUSE, SOO JA VANUSERÜHMA JÄRGI",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV0453",
+    "url": "https://andmed.stat.ee/et/stat/RV0453",
+    "retrievedAt": "2026-11-21T09:02:45.730Z",
+    "cells": 342,
+    "sha256": "7050746fe459e3c476335ac6e3d22f755573c08845ef838826beb3a4c1995ce9"
+  },
+  {
+    "id": "RV045",
+    "title": "RV045: OODATAV ELUIGA SÜNNIMOMENDIL JA ELADA JÄÄNUD AASTAD SOO JA VANUSE JÄRGI",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV045",
+    "url": "https://andmed.stat.ee/et/stat/RV045",
+    "retrievedAt": "2026-11-21T09:02:45.747Z",
+    "cells": 909,
+    "sha256": "d45b2467158048b46a9cea5075d4927442ded997c04bf9616983433cf7c922ed"
+  },
+  {
+    "id": "RV0212",
+    "title": "RV0212: RAHVASTIK AASTA ALGUSES JA AASTAKESKMINE RAHVAARV SOO JA VANUSE JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV0212",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV0212",
+    "selection": {},
+    "cells": 17172,
+    "sha256": "b71c5a9e5e297435560adce96f569f7dc2f46367d0ebd8d8e686c1a791edbdbe",
+    "retrievedAt": "2026-11-21T05:41:48.243Z",
+    "notes": "Märkused Alates 1. jaanuarist 2016 on Statistikaametis kasutusel uus rahvaarvu arvutamise metoodika ja inimeste elukoha allikas, mida tuleb muutuste analüüsimisel arvestada (vt ka Residentsuse indeksi rakendamine rahvastikustatistikas ). Vanusegrupid 0-17, 18-64 ning 65 ja vanemad on tabelisse lisatud 09.09.2025. ",
+    "updated": "21.04.2026"
+  },
+  {
+    "id": "RV129",
+    "title": "RV129: ELUSSÜNDINUD EMA VANUSE JA SÜNNIJÄRJEKORRA JÄRGI",
+    "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikusundmused__sunnid/RV129",
+    "api": "https://andmed.stat.ee/api/v1/et/stat/RV129",
+    "selection": {},
+    "cells": 17760,
+    "sha256": "ba670d1a9105959f83699dd77f658bee8fa8b04466a8c575c370cf97e3a92302",
+    "retrievedAt": "2026-11-21T05:41:51.889Z",
+    "notes": "Märkused Ema vanus näitab ema vanust lapse sünni hetkel. Rahvastikusündmuste (surmad, sünnid, raseduse katkemise ja katkestamised) statistikat avaldab ka Tervise Arengu Instituut (TAI). Statistikaamet arvutab rahvastikusündmuste statistikat Eesti alaliste elanike kohta (sh välismaal toimunud sündmused); TAI avaldab statistikat Eestis toimunud sündmuste kohta. Seetõttu võivad arvud mõnevõrra erineda. ",
+    "updated": "26.05.2026"
+  }
+]

@@ -5,3 +5,7 @@
 @media print{.top,.controls,.chart-tools,.downloads{display:none}.section{break-inside:avoid;padding:20px 0}body{background:white}.hero{padding:20px 0}details{display:block}.chart{height:300px}a{color:inherit}.hero-visual,.pipeline{print-color-adjust:exact}}
 
 @media(max-width:600px){#age-gap-chart{height:450px}}
+
+.chart:empty::before{content:'Laadin graafikut…';display:block;padding:90px 20px;text-align:center;color:#56677b;font-size:14px}.model-link{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:24px;background:#e4f1f2;margin-top:25px;border-radius:8px}.model-link p{margin:0}.model-link a{white-space:nowrap;font-weight:700}@media(max-width:600px){.model-link{display:block}.model-link a{display:inline-block;margin-top:12px}}
+
+.year-picker{display:block;font-size:18px;margin:28px 0}.year-picker output{font-weight:700;margin-left:12px}.year-picker input{display:block;width:100%;margin:20px 0}.chart-tools button{min-height:40px}

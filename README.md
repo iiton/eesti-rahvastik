@@ -41,3 +41,7 @@ Sündide-surmade bilanss; sünni üksikvanuste kogusummad; Shapley kolme teguri 
 - 2026 registreerimiskuu andmed on esialgsed ja erinevad lõplikust sünniaasta statistikast.
 
 Andmete allikaviited, päringud ja SHA-256 kontrollsummad: `data/sources.json` ja taastatav algandmearhiiv. Normaliseeritud CSV sisaldab ühikuid, allika algväärtust ning puuduva väärtuse põhjust; HT12 tuhandetes avaldatud õppijad on teisendatud inimesteks. ECharts: Apache 2.0 litsents (`vendor/ECHARTS-LICENSE.txt`).
+
+## 100 aastat nullrändega
+
+`projection.html` arvutab sünnid aastateks 2026–2125. Lähtepunkt 1.01.2026; 2025. aasta suremus ja sündimus (tundlikkus: 2023–2025 sündimus). Sisse- ja väljaränne mõlemad null. A hoiab püsiva kõigi elanike sündimusprofiili; B hoiab eraldi eestlaste ja ülejäänud rahvastiku profiilid. B rahvusjaotus on hinnanguline. 9 sisendtabelit, 5 interaktiivset SVG-graafikut, kõik mudeliaastad CSV-s. `npm run project` uuendab arvutust ja lehte; `npm test` kontrollib ka sõltumatu arvutusmeetodiga kõiki 400 mudeliaastat. `scripts/projection-collect.mjs` kogub mudeli algandmed.
