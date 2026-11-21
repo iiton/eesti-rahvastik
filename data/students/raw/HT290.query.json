@@ -1,0 +1,57 @@
+{
+  "query": [
+    {
+      "code": "Näitaja",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "ENTR",
+          "ENRL",
+          "GRAD"
+        ]
+      }
+    },
+    {
+      "code": "Õppeasutuse tüüp",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "TOTAL",
+          "UNI",
+          "SCH_PH",
+          "VEI"
+        ]
+      }
+    },
+    {
+      "code": "Õppetase",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "FE_ED_HIGH",
+          "FE_ED660_VOC",
+          "FE_ED660_DIP",
+          "FE_ED665_PROF",
+          "FE_ED665_BACH",
+          "FE_ED766",
+          "FE_ED767",
+          "FE_ED864"
+        ]
+      }
+    },
+    {
+      "code": "Vaatlusperiood",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2023",
+          "2024",
+          "2025"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json"
+  }
+}

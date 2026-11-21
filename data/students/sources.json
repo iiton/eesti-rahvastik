@@ -1,0 +1,84 @@
+{
+  "retrievedAt": "2026-11-21T10:44:31.225Z",
+  "sources": [
+    {
+      "id": "HTG03",
+      "title": "HTG03: ÕPPIJAD ALUS-, ÜLD-, KUTSE- JA KÕRGHARIDUSES HARIDUSLIIGI JA ÕPPETASEME JÄRGI",
+      "url": "https://andmed.stat.ee/et/stat/HTG03",
+      "api": "https://andmed.stat.ee/api/v1/et/stat/HTG03",
+      "sha256": "8502e3e049313cfc9bc321722c8cdf92cab7c44f8498405f4d53bfdf9aa31e7b"
+    },
+    {
+      "id": "HT290",
+      "title": "HT290: ÕPPIJAD, VASTUVÕETUD JA LÕPETAJAD KÕRGHARIDUSES ÕPPETASEME JA ÕPPEASUTUSE TÜÜBI JÄRGI",
+      "url": "https://andmed.stat.ee/et/stat/HT290",
+      "api": "https://andmed.stat.ee/api/v1/et/stat/HT290",
+      "sha256": "3dff6bba55732f02aacbb58860100aa62c35f4c19932093b6a8392439028b3bc"
+    },
+    {
+      "id": "HT308",
+      "title": "HT308: VÄLISÜLIÕPILASED SOO, ÕPPETASEME JA PÄRITOLUREGIOONI JÄRGI",
+      "url": "https://andmed.stat.ee/et/stat/HT308",
+      "api": "https://andmed.stat.ee/api/v1/et/stat/HT308",
+      "sha256": "435ac742c0b8b9f9ccbb1db258ecd772e1fbe5f5a3fbd29f34ee58f1a3e26382"
+    },
+    {
+      "id": "educ_uoe_enra02",
+      "title": "Pupils and students enrolled by education level, sex and age",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enra02/default/table?lang=en",
+      "api": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/educ_uoe_enra02?lang=EN&geo=EE&sex=T&unit=NR&sinceTimePeriod=2023",
+      "updated": "2026-11-17T23:00:00+0100",
+      "sha256": "f670a7e11216abb3fc3db7d3717a940897127e7b3a081c24039f662bb9bf4f8a"
+    },
+    {
+      "id": "educ_uoe_enrs02",
+      "title": "Pupils enrolled in lower-secondary education by programme orientation, sex and age",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrs02/default/table?lang=en",
+      "api": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/educ_uoe_enrs02?lang=EN&geo=EE&sex=T&unit=NR&sinceTimePeriod=2023",
+      "updated": "2026-11-17T23:00:00+0100",
+      "sha256": "7cb0c46b1ccf8889befdb57be2861d49149d48e9bf49f63adf3c64c9d365ecc4"
+    },
+    {
+      "id": "educ_uoe_enrs05",
+      "title": "Pupils enrolled in upper-secondary education by programme orientation, sex and age",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrs05/default/table?lang=en",
+      "api": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/educ_uoe_enrs05?lang=EN&geo=EE&sex=T&unit=NR&sinceTimePeriod=2023",
+      "updated": "2026-11-17T23:00:00+0100",
+      "sha256": "673921596a5d44a7e8b1099012da1043493843974142a255ab60e6364cea1452"
+    },
+    {
+      "id": "HTM2025",
+      "title": "HTM gümnasistide prognoos, tabelid 18 ja 19, lk 43–44",
+      "url": "https://www.hm.ee/sites/default/files/documents/2025-12/Demograafiline%20%C3%BClevaade%20ja%20prognoosid.pdf"
+    },
+    {
+      "id": "RV0212",
+      "title": "RV0212: RAHVASTIK AASTA ALGUSES JA AASTAKESKMINE RAHVAARV SOO JA VANUSE JÄRGI",
+      "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV0212",
+      "api": "https://andmed.stat.ee/api/v1/et/stat/RV0212",
+      "selection": {},
+      "cells": 17172,
+      "sha256": "b71c5a9e5e297435560adce96f569f7dc2f46367d0ebd8d8e686c1a791edbdbe",
+      "retrievedAt": "2026-11-21T05:41:48.243Z",
+      "notes": "Märkused Alates 1. jaanuarist 2016 on Statistikaametis kasutusel uus rahvaarvu arvutamise metoodika ja inimeste elukoha allikas, mida tuleb muutuste analüüsimisel arvestada (vt ka Residentsuse indeksi rakendamine rahvastikustatistikas ). Vanusegrupid 0-17, 18-64 ning 65 ja vanemad on tabelisse lisatud 09.09.2025. ",
+      "updated": "21.04.2026"
+    },
+    {
+      "id": "RV083",
+      "title": "RV083: PROGNOOSITAV RAHVAARV AASTANI 2085 SOO JA VANUSE JÄRGI (ALUSEKS 1. JAANUARI 2024 RAHVAARV)",
+      "url": "https://andmed.stat.ee/et/stat/rahvastik__rahvastikunaitajad-ja-koosseis__rahvaarv-ja-rahvastiku-koosseis/RV083",
+      "api": "https://andmed.stat.ee/api/v1/et/stat/RV083",
+      "selection": {},
+      "cells": 132804,
+      "sha256": "1ccd6735253f4081d6d1f054a71348d767ca51b2f983a35554fbdd46499200ea",
+      "retrievedAt": "2026-11-21T05:41:50.380Z",
+      "notes": "Märkused Stsenaariumite sisendiks olevad näitajad (selles järjekorras: summaarne sündimuskordaja 2050/2085; oodatav eluiga meestel (M) ja naistel (N) 2050/2085; ligikaudne rändesaldo): Stsenaarium 1 (põhistsenaarium) – 1,63/1,7; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 2 (kõrgem sündimus) – 1,65/1,87; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 3 (madalam sündimus) – 1,48/1,53; M 78, N 86 / M 85, N 91; 4000 Stsenaarium 4 (oodatav eluiga jääb samaks) – 1,63/1,7; M 75, N 83 / M 75, N 83; 4000 Stsenaarium 5 (ilma rändeta) – 1,63/1,7; M 78, N 86 / M 85, N 91; 0 Stsenaarium 6 (kõrgem ränne) – 1,63/1,7; M 78, N 86 / M 85, N 91; 6000 Stsenaarium 7 (madalam sündimus, kõrgem ränne) – 1,48/1,53; M 78, N 86 / M 85, N 91; 6000 Täpsemalt saab rahvastikuprognoosi koostamise metoodika kohta lugeda 2024. aasta rahvastikuprognoosi metoodikadokumendist . ",
+      "updated": "13.06.2024"
+    },
+    {
+      "id": "UOE-EE",
+      "title": "Eesti UOE metoodika: riigisiseste ja rahvusvaheliste õppijaarvude erinevus",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/educ_uoe_enr_esmsed_ee.htm"
+    }
+  ]
+}

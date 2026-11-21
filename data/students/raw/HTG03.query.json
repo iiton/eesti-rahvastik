@@ -1,0 +1,65 @@
+{
+  "query": [
+    {
+      "code": "Sugu",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "T",
+          "M",
+          "F"
+        ]
+      }
+    },
+    {
+      "code": "Õppetase",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "TOTAL",
+          "FE_ED_PRE",
+          "FE_ED_GEN",
+          "FE_ED1_ED2_GEN",
+          "FE_ED3_GEN",
+          "FE_ED_VOC",
+          "FE_ED2_VOC",
+          "FE_ED3_VOC",
+          "FE_ED351",
+          "FE_ED354",
+          "FE_ED4_VOC",
+          "FE_ED_HIGH",
+          "FE_ED660_VOC",
+          "FE_ED660_DIP",
+          "FE_ED665_PROF",
+          "FE_ED665_BACH",
+          "FE_ED766",
+          "FE_ED767",
+          "FE_ED864"
+        ]
+      }
+    },
+    {
+      "code": "Näitaja",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "ENRL"
+        ]
+      }
+    },
+    {
+      "code": "Vaatlusperiood",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2023",
+          "2024",
+          "2025"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json"
+  }
+}

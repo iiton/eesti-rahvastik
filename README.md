@@ -49,3 +49,9 @@ Andmete allikaviited, päringud ja SHA-256 kontrollsummad: `data/sources.json` j
 ## 1991–2001 sündinud naiste laste arv hariduse järgi
 
 Ankur `#haridus-1991-2001`: RL214111 üksikvanused seisuga 31.12.2021, vanus 20–30. Avaldatud keskmised teadaoleva laste arvuga naiste seas, ka lastetud. Graafikul saab valida keskmise, teadmata laste arvuga naiste osakaalu või rühma suuruse; kõik 11 sünniaastat on ka staatilises tabelis. Haridus on loendushetke oma, mitte lõplik; need ei ole tänased ega lõpetatud peresuurused. Värskem RV096 ei eralda seda sünniaastate vahemikku täpselt. Kontroll: `node scripts/verify-education.mjs`.
+
+## Õppijate arv 2027/28–2046/47
+
+`students.html`: 20 õppeaastat, põhikooli ja gümnaasiumi kõik õppevormid, ülikoolid eraldi kogu kõrgharidusest. HTG03/HT290 2025/26 baas, UOE 2024/25 vanuseprofiilid, kolme õppetaseme eraldi kalibreerimine kõrghariduses. Nullränne ja 2025 sündimus; tundlikkus 2023–2025 sündimusega ning võrdlus Statistikaameti 2024 rahvastikuprognoosiga. Tegu on meie osalusmäärade mudeliga, mitte ametliku õpilasprognoosiga. Välisüliõpilaste vood ja tulevased õpivalikud pole eraldi modelleeritud. Ametlik HTM gümnasistide prognoos 2033-ni on eraldi, statsionaarse õppe kohta.
+
+`node scripts/students-collect.mjs` kogub sisendid; `npm run students` arvutab ja ehitab; `node scripts/verify-students.mjs` kontrollib arvutusi. Algandmed, päringud ja kontrollsummad: `data/students/`; kogu projekt on taastamisarhiivis. `scripts/students-browser-check.mjs` kontrollib Chromiumi ja WebKiti telefonis, iPadi mõõdus ning arvutis.

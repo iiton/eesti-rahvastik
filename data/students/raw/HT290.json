@@ -1,0 +1,3207 @@
+{
+  "columns": [
+    {
+      "code": "Näitaja",
+      "text": "Näitaja",
+      "type": "d"
+    },
+    {
+      "code": "Õppeasutuse tüüp",
+      "text": "Õppeasutuse tüüp",
+      "type": "d"
+    },
+    {
+      "code": "Õppetase",
+      "text": "Õppetase",
+      "type": "d"
+    },
+    {
+      "code": "Vaatlusperiood",
+      "text": "Vaatlusperiood",
+      "type": "t"
+    },
+    {
+      "code": "HT290: ÕPPIJAD, VASTUVÕETUD JA LÕPETAJAD KÕRGHARIDUSES",
+      "text": "HT290: ÕPPIJAD, VASTUVÕETUD JA LÕPETAJAD KÕRGHARIDUSES",
+      "type": "c"
+    }
+  ],
+  "comments": [],
+  "data": [
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "13383"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "13753"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "14636"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "2990"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "3035"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "3120"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "5348"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "5277"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "5674"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "741"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "774"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "851"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "3981"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "4280"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "4552"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "323"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "387"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "TOTAL",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "439"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "10992"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "11381"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "12164"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "759"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "821"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "829"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "5348"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "5277"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "5674"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "741"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "774"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "851"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "3821"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "4122"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "4371"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "323"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "387"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "UNI",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "439"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "2391"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "2372"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "2472"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "2231"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "2214"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "2291"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "160"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "158"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "181"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "SCH_PH",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENTR",
+        "VEI",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "44628"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "45450"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "47496"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "11262"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "11474"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "11793"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "16503"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "16885"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "17713"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "3413"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "3480"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "3712"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "11167"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "11287"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "11787"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "2283"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "2324"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "TOTAL",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "2491"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "35714"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "36334"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "38115"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "2822"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "2793"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "2891"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "16503"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "16885"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "17713"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "3413"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "3480"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "3712"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "10693"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "10852"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "11308"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "2283"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "2324"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "UNI",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "2491"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "8914"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "9116"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "9381"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "8440"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "8681"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "8902"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "474"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "435"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "479"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "SCH_PH",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "ENRL",
+        "VEI",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "8837"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "9439"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "10160"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "2102"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "2199"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "2352"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "3028"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "3268"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "3638"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "405"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "506"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "483"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "3065"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "3204"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "3395"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "237"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "262"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "TOTAL",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "292"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "7107"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "7673"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "8199"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "528"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "570"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "521"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "3028"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "3268"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "3638"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "405"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "506"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "483"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "2909"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "3067"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "3265"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "237"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "262"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "UNI",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "292"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "1730"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "1766"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "1961"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "1574"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "1629"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "1831"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "156"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "137"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "130"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "SCH_PH",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED_HIGH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED_HIGH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED_HIGH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED660_VOC",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED660_VOC",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED660_VOC",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED660_DIP",
+        "2023"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED660_DIP",
+        "2024"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED660_DIP",
+        "2025"
+      ],
+      "values": [
+        "-"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED665_PROF",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED665_PROF",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED665_PROF",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED665_BACH",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED665_BACH",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED665_BACH",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED766",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED766",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED766",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED767",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED767",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED767",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED864",
+        "2023"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED864",
+        "2024"
+      ],
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "key": [
+        "GRAD",
+        "VEI",
+        "FE_ED864",
+        "2025"
+      ],
+      "values": [
+        "0"
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "updated": "9999-12-31T21:59:59Z",
+      "label": "HT290: ÕPPIJAD, VASTUVÕETUD JA LÕPETAJAD KÕRGHARIDUSES | Näitaja, Õppeasutuse tüüp, Õppetase ning Vaatlusperiood",
+      "source": "Statistikaamet"
+    }
+  ]
+}

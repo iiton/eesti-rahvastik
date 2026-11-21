@@ -1,0 +1,92 @@
+{
+  "title": "HT308: VÄLISÜLIÕPILASED SOO, ÕPPETASEME JA PÄRITOLUREGIOONI JÄRGI",
+  "variables": [
+    {
+      "code": "Sugu",
+      "text": "Sugu",
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "valueTexts": [
+        "Mehed ja naised",
+        "Mehed",
+        "Naised"
+      ],
+      "elimination": true
+    },
+    {
+      "code": "Päritoluregioon",
+      "text": "Päritoluregioon",
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "valueTexts": [
+        "Regioonid kokku",
+        "Aafrika",
+        "Aasia",
+        "Euroopa (v.a Eesti)",
+        "Austraalia ja Okeaania",
+        "Ladina-Ameerika ja Kariibi mere piirkond",
+        "Põhja-Ameerika",
+        "Päritoluregioon teadmata"
+      ],
+      "elimination": true,
+      "map": "estomaak"
+    },
+    {
+      "code": "Haridusaste",
+      "text": "Haridusaste",
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "valueTexts": [
+        "Õppetasemed kokku",
+        "Bakalaureuseõpe ja rakenduskõrgharidusõpe",
+        "Magistriõpe (sh integreeritud bakalaureuse- ja magistriõpe)",
+        "Doktoriõpe"
+      ],
+      "elimination": true
+    },
+    {
+      "code": "Aasta",
+      "text": "Aasta",
+      "values": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "valueTexts": [
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "time": true
+    }
+  ]
+}
