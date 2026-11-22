@@ -1,4 +1,4 @@
-import {profiles,defaults,income} from './budget-model.js';
+import {profiles,defaults,income} from './budget-model.js?v=2015';
 export const f=(v,n=0)=>Number.isFinite(v)?v.toLocaleString('et-EE',{minimumFractionDigits:n,maximumFractionDigits:n}):'—';
 export function table(headers,rows,caption=''){return `<div class="table-wrap" tabindex="0" role="region" aria-label="${caption||'Andmetabel; kitsal ekraanil keri küljele'}"><table>${caption?`<caption>${caption}</caption>`:''}<thead><tr>${headers.map(h=>`<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map((v,i)=>i?`<td>${v}</td>`:`<th scope="row">${v}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
 export function yearLabel(y){return y===2026?'2026*':String(y);}

@@ -1,5 +1,6 @@
-import {calculate,defaults,profiles,csv} from './budget-model.js';
-import {f,table,annualTables,cards,detailTable,findings} from './budget-view.js';
+import {comparison2015} from './budget-2015.js?v=2015';
+import {calculate,defaults,profiles,csv} from './budget-model.js?v=2015';
+import {f,table,annualTables,cards,detailTable,findings} from './budget-view.js?v=2015';
 const $=id=>document.getElementById(id),colors=['#087f8c','#5571b0','#cc683f','#86579c'];
 let D,rows,o={...defaults},timer=null;const charts=new Map();
 const metricNames={realPerPerson:'Jääk inimese kohta · 2025 eurodes kuus',balance:'Jääk leibkonna kohta · nominaalsed eurod kuus',perPerson:'Jääk inimese kohta · nominaalsed eurod kuus',realBalance:'Jääk leibkonna kohta · 2025 eurodes kuus',total:'Netotulu, toetused ja tagastus · eurod kuus'};
@@ -16,10 +17,10 @@ function renderYear(){const y=+$('year').value;$('year-output').textContent=y===
 function render(){const showScenario=$('scenario').checked;const visible=rows.filter(r=>showScenario||!r.scenario);$('year').max=showScenario?'2026':'2025';if(+$('year').value>+$('year').max)$('year').value=$('year').max;
  const t=annualTables(visible,+$('unit').value);$('income-table').innerHTML=t.income;$('cost-table').innerHTML=t.costs;$('balance-table').innerHTML=t.balances;
  const metric=$('metric').value;$('trend-title').textContent=metricNames[metric];draw('trend-chart',{...axes(),grid:{left:10,right:24,top:35,bottom:70,containLabel:true},xAxis:{type:'category',data:D.annual.map(r=>String(r.year)),axisLabel:{interval:innerWidth<500?1:0}},series:profiles.map(p=>({name:p.short,type:'line',symbol:'circle',symbolSize:7,connectNulls:false,data:rows.filter(r=>r.id===p.id&&!r.scenario).map(r=>r[metric]),lineStyle:{width:3}}))});
- $('findings').innerHTML=findings(rows,o);$('inputs-table').innerHTML=table(['Aasta','Brutokuupalk','Väiksema kodu €/m²','Suurema kodu €/m²','Laenuintress, %','Elekter DB, €/kWh','Elekter DC, €/kWh','Diisel, €/l'],D.annual.map(r=>[r.year,f(o.wageSeries==='linked'?r.wageLinked:r.wage),f(r.prices['41-54,99'],2),f(r.prices['70-249,99'],2),f(r.mortgageRate,3),f(r.electricity['KWH1000-2499'],4),f(r.electricity['KWH2500-4999'],4),f(r.diesel,3)]),'Arvutuse aastased sisendid');renderYear();
+ $('findings').innerHTML=findings(rows,o);$('comparison-2015').innerHTML=comparison2015(D,o);$('inputs-table').innerHTML=table(['Aasta','Brutokuupalk','Väiksema kodu €/m²','Suurema kodu €/m²','Laenuintress, %','Elekter DB, €/kWh','Elekter DC, €/kWh','Diisel, €/l'],D.annual.map(r=>[r.year,f(o.wageSeries==='linked'?r.wageLinked:r.wage),f(r.prices['41-54,99'],2),f(r.prices['70-249,99'],2),f(r.mortgageRate,3),f(r.electricity['KWH1000-2499'],4),f(r.electricity['KWH2500-4999'],4),f(r.diesel,3)]),'Arvutuse aastased sisendid');renderYear();
 }
 function stop(){if(timer){clearInterval(timer);timer=null;}$('play').textContent='Esita aastad';$('play').setAttribute('aria-pressed','false');}
-try{const response=await fetch(new URL('data/budget/index.json',import.meta.url));if(!response.ok)throw Error('Andmete laadimine ebaõnnestus');D=await response.json();rows=calculate(D);
+try{const response=await fetch(new URL('data/budget/index.json?v=2015',import.meta.url));if(!response.ok)throw Error('Andmete laadimine ebaõnnestus');D=await response.json();rows=calculate(D);
  if(!window.echarts){$('load-status').textContent='Andmed on kohal, laadin graafikute teeki…';await new Promise((resolve,reject)=>{const script=document.querySelector('script[src*="echarts"]'),timeout=setTimeout(()=>reject(Error('Graafikute teek ei laaditud 30 sekundi jooksul')),30000);script.addEventListener('load',()=>{clearTimeout(timeout);resolve()},{once:true});script.addEventListener('error',()=>{clearTimeout(timeout);reject(Error('Graafikute teegi laadimine ebaõnnestus'))},{once:true});});}
  render();
  $('year').addEventListener('input',()=>{stop();renderYear()});for(const id of ['unit','metric','scenario'])$(id).addEventListener('change',()=>{stop();render()});

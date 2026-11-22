@@ -4,6 +4,17 @@ export const defaults={singleArea:45,familyArea:90,downpayment:20,term:30,housin
 export function annuity(principal,percent,months){if(principal===0)return 0;const r=percent/1200;return r===0?principal/months:principal*r/(1-(1+r)**-months);}
 export function loan(principal,percent,years){const payment=annuity(principal,percent,years*12),rate=percent/1200;let balance=principal,interest=0;for(let m=0;m<12;m++){const i=balance*rate;interest+=i;balance-=payment-i;}return{payment,interestAnnual:interest,principalMonthly:(principal-balance)/12};}
 export function income(profile,year,wage,interestAnnual=0){
+ if(year===2015){
+  const gross=profile.salaries.map(k=>k*wage*12),sum=gross.reduce((s,g)=>s+g,0),bases=gross.map(g=>Math.max(0,g*.964-1848));
+  const netSalary=(sum*.964-bases.reduce((s,v)=>s+v,0)*.2)/12;
+  let remaining=bases.reduce((s,v)=>s+v,0);
+  const spouseD=profile.family?Math.min(remaining,gross.reduce((s,g)=>s+Math.max(0,1848-g*.964),0)):0;remaining-=spouseD;
+  const childD=profile.family?Math.min(remaining,1848*2):0;remaining-=childD;
+  const interestD=Math.min(interestAnnual,1920*(profile.family?2:1),sum*.5,remaining);
+  const spouseSaving=spouseD*.2/12,childSaving=childD*.2/12,interestSaving=interestD*.2/12,taxRefund=spouseSaving+childSaving+interestSaving,childBenefit=profile.family?190:0;
+  return{gross:sum/12,netSalary,childBenefit,largeBenefit:0,benefit:childBenefit,interestSaving,spouseSaving,childSaving,taxRefund,total:netSalary+childBenefit+taxRefund};
+ }
+
  const rate=year>=2025?.22:.2;const gross=profile.salaries.map(k=>k*wage*12);const bases=gross.map(g=>Math.max(0,g*.964-personalAllowance(g,year)));const netSalary=gross.reduce((s,g,i)=>s+g*.964-bases[i]*rate,0)/12;
  const rem=[...bases];let interestSaving=0,spouseSaving=0,childSaving=0;
  if(year<2024){const earners=gross.filter(g=>g>0).length;for(let i=0;i<gross.length;i++){if(gross[i]===0)continue;const d=Math.min(300,interestAnnual/earners,gross[i]*.5,rem[i]);rem[i]-=d;interestSaving+=d*rate/12;}
@@ -14,7 +25,7 @@ export function income(profile,year,wage,interestAnnual=0){
 }
 export function calculate(D,options={}){
  const o={...defaults,...options};for(const k of Object.keys(defaults)){if(typeof defaults[k]==='number'&&(!Number.isFinite(o[k])||o[k]<0))throw Error('Vigane sisend: '+k);}if(o.hotPerson>o.waterPerson)throw Error('Sooja vee kogus ei saa ületada kogu veekulu.');if(o.downpayment>100||o.term<1||o.depreciation>100)throw Error('Kontrolli laenu ja amortisatsiooni eeldusi.');
- const base=D.annual[0],last=D.annual.at(-1);const years=[...D.annual,{...last,year:2026,wage:D.scenario2026.wage,wageLinked:D.scenario2026.wage*1685/1645,scenario:true}];
+ const base=D.annual.find(r=>r.year===2018),last=D.annual.find(r=>r.year===2025);const years=[...D.annual,{...last,year:2026,wage:D.scenario2026.wage,wageLinked:D.scenario2026.wage*1685/1645,scenario:true}];
  const rows=[];
  for(const r of years){const year=r.year;const wage=o.wageSeries==='linked'?r.wageLinked:r.wage;
  const heatPrice=o.heatPrice2025*r.indices.CP0455/last.indices.CP0455;
