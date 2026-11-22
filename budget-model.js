@@ -12,7 +12,7 @@ export function income(profile,year,wage,interestAnnual=0){
   const childD=profile.family?Math.min(remaining,1848*2):0;remaining-=childD;
   const interestD=Math.min(interestAnnual,1920*(profile.family?2:1),sum*.5,remaining);
   const spouseSaving=spouseD*.2/12,childSaving=childD*.2/12,interestSaving=interestD*.2/12,taxRefund=spouseSaving+childSaving+interestSaving,childBenefit=profile.family?190:0;
-  return{gross:sum/12,netSalary,childBenefit,largeBenefit:0,benefit:childBenefit,interestSaving,spouseSaving,childSaving,taxRefund,total:netSalary+childBenefit+taxRefund};
+  return{gross:sum/12,netSalary,netAfterDeclaration:netSalary+taxRefund,childBenefit,largeBenefit:0,benefit:childBenefit,interestSaving,spouseSaving,childSaving,taxRefund,total:netSalary+childBenefit+taxRefund};
  }
 
  const rate=year>=2025?.22:.2;const gross=profile.salaries.map(k=>k*wage*12);const bases=gross.map(g=>Math.max(0,g*.964-personalAllowance(g,year)));const netSalary=gross.reduce((s,g,i)=>s+g*.964-bases[i]*rate,0)/12;
@@ -21,7 +21,7 @@ export function income(profile,year,wage,interestAnnual=0){
  if(profile.family&&earners===1){const i=gross.findIndex(g=>g>0);const d=Math.min(spouseDeduction(gross.reduce((s,v)=>s+v,0)),rem[i]);rem[i]-=d;spouseSaving=d*rate/12;}
  const d=Math.min(childDeduction(profile.family?3:0,year),Math.max(...rem));childSaving=d*rate/12;
  }
- const b=benefits(profile.family?3:0,year);const taxRefund=interestSaving+spouseSaving+childSaving;return{gross:gross.reduce((s,v)=>s+v,0)/12,netSalary,childBenefit:b.child,largeBenefit:b.large,benefit:b.total,interestSaving,spouseSaving,childSaving,taxRefund,total:netSalary+b.total+taxRefund};
+ const b=benefits(profile.family?3:0,year);const taxRefund=interestSaving+spouseSaving+childSaving;return{gross:gross.reduce((s,v)=>s+v,0)/12,netSalary,netAfterDeclaration:netSalary+taxRefund,childBenefit:b.child,largeBenefit:b.large,benefit:b.total,interestSaving,spouseSaving,childSaving,taxRefund,total:netSalary+b.total+taxRefund};
 }
 export function calculate(D,options={}){
  const o={...defaults,...options};for(const k of Object.keys(defaults)){if(typeof defaults[k]==='number'&&(!Number.isFinite(o[k])||o[k]<0))throw Error('Vigane sisend: '+k);}if(o.hotPerson>o.waterPerson)throw Error('Sooja vee kogus ei saa ületada kogu veekulu.');if(o.downpayment>100||o.term<1||o.depreciation>100)throw Error('Kontrolli laenu ja amortisatsiooni eeldusi.');
@@ -47,5 +47,5 @@ export function calculate(D,options={}){
  }
  return rows;
 }
-export const columns=[['year','Aasta'],['name','Leibkond'],['scenario','2026 stsenaarium (true/false)'],['gross','Brutopalk'],['netSalary','Netopalk'],['benefit','Peretoetused'],['taxRefund','Maksutagastus / 12'],['total','Tulu kokku'],['mortgage','Laenumakse'],['utilityTotal','Kommunaalid ja korrashoid'],['housing','Eluase kokku'],['car','Auto (kulum vastavalt valikule)'],['balance','Jääk pärast eluaset ja autot'],['perPerson','Jääk inimese kohta']];
+export const columns=[['year','Aasta'],['name','Leibkond'],['scenario','2026 stsenaarium (true/false)'],['gross','Brutopalk'],['netSalary','Netopalk enne aastadeklaratsiooni'],['taxRefund','Maksutagastus / 12 (sisaldub netotulus)'],['netAfterDeclaration','Netotulu pärast aastadeklaratsiooni, enne toetusi'],['benefit','Peretoetused'],['total','Tulu kokku'],['mortgage','Laenumakse'],['utilityTotal','Kommunaalid ja korrashoid'],['housing','Eluase kokku'],['car','Auto (kulum vastavalt valikule)'],['balance','Jääk pärast eluaset ja autot'],['perPerson','Jääk inimese kohta']];
 export function csv(rows){return '\ufeff'+[columns.map(c=>c[1]).join(';'),...rows.map(r=>columns.map(([k])=>typeof r[k]==='number'?r[k].toFixed(k==='year'?0:2).replace('.',','):'"'+String(r[k]).replaceAll('"','""')+'"').join(';'))].join('\r\n');}
