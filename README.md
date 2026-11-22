@@ -94,3 +94,11 @@ Eraldi vaated: kolme lapse toetuste nominaalne ja IA02-ga deflateeritud ostujõu
 Kogumine: `node scripts/policy-collect.mjs` (IA02 metaandmed, päring, 96 algväärtust, SHA-256). Seaduste käsitsi kontrollitud andmeregister: `scripts/policy-data.mjs`; kolm Riigi Teataja HTML-väljavõtet ning hinnatabel on taastootmisarhiivis. Ehitus: `npm run policy`, seejärel `node scripts/build.mjs`. Kontroll: `node scripts/verify-policy.mjs` ja `node scripts/policy-browser-check.mjs`. Viimane katab Chromiumi/WebKiti, 390/834/1440 px, viis SVG-graafikut, maksuvõrdluse, kindlustuse erandi, filtrid ja CSV.
 
 Sõnumite osa `#signaalid` eristab kuue ametliku tsitaadi täpset sõnastust, konteksti, võimalikku vastuvõtja tõlgendust ja tõendamata järeldusi. `node scripts/policy-signals.mjs` kontrollib tsitaadid otse allikate tekstist ning salvestab URL-id, kuupäevad ja vastuste SHA-256 kontrollsummad faili `data/policy/signals.json`. Algavaldamise ja viimase uuendamise kuupäeva ei samastata. Signaalide mõju ei hinnata väljamõeldud eurokulu või sündimata laste arvuna.
+
+## Leibkondade aastaeelarved
+
+`budget.html` võrdleb 2018–2025 nelja leibkonda: üksik ühe või kahe keskmise palgaga ning kolme lapsega pere ühe või kahe teenijaga (kokku kaks keskmist). 2026 on eraldi osaliste andmete reeglistsenaarium.
+
+`site/data/budget/index.json` sisaldab normaliseeritud palka, Tallinna korterite tehinguhindu, EKP uute eluasemelaenude intressi, Eurostati elektri lõpphindu ja detailseid hinnaindekseid ning Euroopa Komisjoni diislikütuse nädalaread. Eluaseme- ja autokulude kogused ning osa hinnatasemeid on nähtavad mudelieeldused. Maksutagastus omistatakse tulu teenimise aastale. Auto kulum on asendusreserv; sissemakse on eraldi.
+
+Allikaarhiivis: `node scripts/budget-collect.mjs` (vahemälu, `--refresh` uuendamiseks), `npm run budget`, `node scripts/verify-budget.mjs`. Ajalooline EC XLSX on arhiivis base64-kujul; parser kasutab ZIP-i avamiseks süsteemi `unzip` käsku, kõik arvutused on JavaScriptis. Brauserikontroll: `node scripts/budget-browser-check.mjs` (kohalik Playwright). Staatilised tabelid jäävad nähtavaks ka JavaScriptita.
